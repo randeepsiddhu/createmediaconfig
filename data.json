@@ -1,101 +1,43 @@
 {
     "configPattern": "_AU_",
     "config": {
-        "max_wy_android_banner_1": {
-            "bidfloor": 0.05,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_banner_2": {
-            "bidfloor": 0.15,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_banner_3": {
-            "bidfloor": 0.4,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_banner_4": {
-            "bidfloor": 0.65,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_interstitial_1": {
-            "bidfloor": 1,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_interstitial_2": {
-            "bidfloor": 3,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_interstitial_3": {
-            "bidfloor": 5,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_interstitial_4": {
-            "bidfloor": 10,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_rewarded_1": {
-            "bidfloor": 1,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_rewarded_2": {
-            "bidfloor": 3,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_rewarded_3": {
-            "bidfloor": 5,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_android_rewarded_4": {
-            "bidfloor": 10,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_banner_1": {
-            "bidfloor": 0.05,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_banner_2": {
-            "bidfloor": 0.15,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_banner_3": {
-            "bidfloor": 0.4,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_banner_4": {
-            "bidfloor": 0.65,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_interstitial_1": {
-            "bidfloor": 1,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_interstitial_2": {
-            "bidfloor": 3,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_interstitial_3": {
-            "bidfloor": 5,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_interstitial_4": {
-            "bidfloor": 10,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_rewarded_1": {
-            "bidfloor": 1,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_rewarded_2": {
-            "bidfloor": 3,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_rewarded_3": {
-            "bidfloor": 5,
-            "bidfloorcur": "USD"
-        },
-        "max_wy_ios_rewarded_4": {
-            "bidfloor": 10,
-            "bidfloorcur": "USD"
+        "default": {
+            "floors": {
+                "data": {
+                    "modelgroups": [
+                        {
+                            "schema": {
+                                "fields": [
+                                    "adUnitCode"
+                                ]
+                            },
+                            "values": {
+                                "*": 10,
+                                "OW_And_banner_0": 0.01,
+                                "OW_And_banner_1": 1,
+                                "OW_And_banner_2": 3,
+                                "OW_And_banner_3": 5,
+                                "OW_And_Inter_0": 0.01,
+                                "OW_And_Inter_1": 1,
+                                "OW_And_Inter_2": 3,
+                                "OW_And_Inter_3": 5,
+                                "OW_And_Inter_4": 10,
+                                "OW_iOS_banner_0": 0.01,
+                                "OW_iOS_banner_1": 1,
+                                "OW_iOS_banner_2": 3,
+                                "OW_iOS_banner_3": 5,
+                                "OW_iOS_Inter_0": 0.01,
+                                "OW_iOS_Inter_1": 1,
+                                "OW_iOS_Inter_2": 3,
+                                "OW_iOS_Inter_3": 5,
+                                "OW_iOS_Inter_4": 10
+                            },
+                            "modelversion": "model_1"
+                        }
+                    ],
+                    "currency": "USD"
+                }
+            }
         }
     }
 }

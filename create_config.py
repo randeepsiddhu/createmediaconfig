@@ -24,7 +24,10 @@ def read_from_file_new(file_name):
                     break
 
                 if (col[row].column_letter == 'A'):
-                    adunitname = ' "'+ str(col[row].value) + '": '
+                    if (str(col[row].value) == "default"):
+                        adunitname = ' "*": '
+                    else:
+                        adunitname = ' "'+ str(col[row].value) + '": '
                 elif (col[row].column_letter == 'B'):
                     if (row != (dataframe.max_row-1)):
                         floorvalue = str(col[row].value) + ','
